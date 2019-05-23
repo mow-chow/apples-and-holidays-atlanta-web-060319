@@ -23,9 +23,7 @@ holiday_hash[:spring][:memorial_day] << 'Fun'
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-season = "summer"
-holiday_name =  :fathers_day
-supply_array = ["Mug"]
+
 holiday_hash[:summer] << (holiday_name, supply_array)
   # code here
   # remember to return the updated hash
